@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <meta name="title" content="Bhaskara Fórmula">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Portuguese">
+    <title>Bhaskara Fórmula - Raiz de uma Equação Completa do 2º grau</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <p class="title is-5">BhaskaraApp</p>
+            </div>
+        </nav>
+    </header>
+    <section class="data-form">
+        <h2 class="has-text-centered title is-3">Bhaskara Calculator</h2>
+        <p class="has-text-centered">Use a calculadora abaixo para obter rapidamente as<br> raízes da sua equação do segundo grau através da fórmula de bhaskara.</p>
+        <form class="calculator" id="form">
+            <p>Insira o valor de a: <input class="input" type="number" name="itema" id="a"></p>
+            <p>Insira o valor de b: <input class="input" type="number" name="itemb" id="b"></p>
+            <p>Insira o valor de c: <input class="input" type="number" name="itemc" id="c"></p>
+            <div class="buttons">
+                <p><input class="button is-danger" type="button" value="mostrar" name="mostrar" id="mostrar"></p>
+                <p><input class="button is-danger" type="button" value="limpar" name="mostrar" id="limpar"
+                        onclick="reset()"></p>
+            </div>
+            <div id="eq"></div>
+            <div id="x1"></div>
+
+
+            <div id="message">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="col">
+            <h3>Desenvolvido por mousemad</h3>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

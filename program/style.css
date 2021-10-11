@@ -1,0 +1,140 @@
+.alert {
+    display: block;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2rem;
+    font-style: italic;
+    position: fixed;
+    box-shadow: 0 0 4px #333;
+    background-color: #F03A5F;
+    color: #fff;
+  }
+
+  .calculator {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      display: block;
+      margin: 100px auto;
+      padding: 15px;
+  }
+
+  .buttons {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+
+  .buttons p {
+      margin: 10px;
+  }
+
+  nav {
+      height: 64px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: nowrap;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  }
+
+  .intro {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: center;
+      background-color: hsl(44, 100%, 77%);
+  }
+
+  .box {
+      height: 200px;
+      width: 400px;  
+      margin: 20px;  
+  }
+
+  form {
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+  }
+
+  .data-form h2 {
+      padding-top: 50px;
+  }
+
+  .exp {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 100px auto;
+    padding: 15px;
+  }
+
+ .update {
+    background-color: hsl(44, 100%, 77%);
+ }
+
+ #space p.title {
+     margin-top: 50px !important;
+ }
+
+ .ads {
+     display: flex;
+     justify-content: center;
+     align-items: stretch;
+     padding: 30px 30px;
+     flex-wrap: wrap;
+ }
+
+ .area-ads {
+     width: 100%;
+     max-width: 728px;
+     height: 90px;
+     background-color: #ccc;
+ }
+
+ .area-300 {
+     width: 300px;
+     height: 250px;
+     background-color: #ccc;
+     margin: 20px;
+ }
+
+ 
+ footer {
+     display: flex !important;
+     justify-content: center;
+     background-color: aliceblue;
+     padding: 70px 0;
+     margin: 0;
+ }
+
+  /* Media Queries */
+
+
+  @media(max-width: 490px) {
+   #form {
+        width: 350px !important;
+    }
+    .area-ads {
+        width: 100%;
+        max-width: 300px;
+        height: 50px;
+        background-color: #ccc;
+    }
+
+    .area-300 {
+        width: 300px;
+        height: 200px;
+        background-color: #ccc;
+        margin: 20px;
+    }
+ }
+
+
+  @media(max-width: 1024px) {
+      .box {
+          height: auto;
+      }
+  }
